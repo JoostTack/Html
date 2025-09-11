@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <!--
+    Naast html bestaat er ook een MarkDown editor
+    -->
+<head>
+    <title>Mijn startpagina</title>
+    <link rel="stylesheet" href="assets/css/opmaak.css"><!--link naar een externe css file = best practice-->
+</head>
+<body>
+    <header>
+        <h1><em>Welkom op mijn startpagina</em></h1>
+        <nav>
+            <a href="#over">Over mij</a><!-- # binnen de pagina-->
+            <a href="#hobby">Hobby's</a>
+            <a href="#kinderen">Kinderen</a>
+            <a href="#contact">Contacteer</a>
+            <a href="http://www.vhsi.be">School</a>
+        </nav>
+    </header>
+    <main>
+    <section id="over">
+        <h2>Mezelf beschrijven</h2>
+        <p>Mannelijk, 51 jaar, uit <strong>Aalter</strong></p><!--strong gebruiken en niet de b-->
+    </section>
+    <section>
+        <article id="hobby">
+            <h2>Mijn hobby's</h2>
+            <ul><!--unsorted list (bullet), ol (nummers)-->
+                <li>Tennis</li><!--list items-->
+                <li>Progammeren</li>
+                <li>Lego
+                    <img src="assets/images/lego.png" alt="lego logo" width="30px" >
+                    <!--best een relatief pad en geen absoluut met c:/... -->
+                </li>
+            </ul>
+        </article>
+        <article id="kinderen"></article>
+            <h2>Mijn kinderen</h2>
+            <ul>
+                <li>Korneel</li>
+                <li>Ruben</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Mijn verslavende games</h2>
+            <div><!--blok waar je geen semantic tag voor hebt-->
+            <table>
+                <thead> <!--rij titel-->
+                    <tr>
+                        <td>Spel</td>
+                        <td>Dagen</td>
+                        <td>Uren</td>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Fortnite</td><!--td table data-->
+                    <td>4/7</td>
+                    <td>3u</td>
+                </tr>
+                <tr>
+                    <td>Clash Royale</td>
+                    <td>7/7</td>
+                    <td>1u</td>
+                </tr>
+                <tr>
+                    <td>Minecraft</td>
+                    <td>5/7</td>
+                    
+                </tr>
+            </table>
+            </div>
+        </article>
+        </section>
+    <section id="contact"><!--id is de naam-->
+        <h2>Hoe contacteer je me?</h2>
+        <p>joost.tack@vhsi.be</p>
+    </section>
+    </main>
+    <footer>
+        <p>site created by Joost - 2025</p>
+    </footer>
+</body>
+</html>
+
+<!--
+structuur
+html
+ head
+ body
+  header
+   nav (links)
+  main
+   section
+    article
+     (div) - als er geen semantic tag voorhanden is
+  footer
+-->

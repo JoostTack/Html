@@ -1,0 +1,12 @@
+/*css = cascading style sheets*/
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+}
+
+h1{/*directe verwijzing naar semantic tag*/ 
+   font-family: 'Courier New', Courier, monospace;
+    color:red;/*eigenschap: waarde*/
+font-size: 2rem;
+
+}
