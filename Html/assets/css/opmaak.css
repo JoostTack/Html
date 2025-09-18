@@ -21,10 +21,11 @@ li{
 
 article{
     margin-left: 1rem;
+    margin-bottom: 0.5rem;
     padding:2rem;
     padding-top: 0rem;
     padding-bottom: 0.5rem;
-    border-left: solid 0.1rem green;
+    border: solid 0.1rem green;
     background-color: rgb(230, 230,230);
     border-radius: 0.5rem;
 }
@@ -34,11 +35,12 @@ article{
 }
 
 .games{
-    background-image: url('../images/fortnite.jpg');
+  background: 
+    linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
+    url('../images/fortnite.jpg');
     background-position:top center;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 50%;
 }
 
 img{
