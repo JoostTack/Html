@@ -5,13 +5,15 @@ body{
 }
 
 header h1{
-    background-color: yellow;
+    background-color:rgb(245, 245,245);
     width: 60%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding: 1rem;
-    line-height: 10rem;
+    line-height: 6rem;
+    box-shadow: 2rem 2rem  2rem 2rem rgb(150, 150,150) ;
+    text-shadow:-1rem -2rem 0.2rem red;
 }
 
 h1{/*directe verwijzing naar semantic tag*/ 
