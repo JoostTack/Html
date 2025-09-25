@@ -4,6 +4,16 @@ body{
     font-size: 0.8rem;
 }
 
+header h1{
+    background-color: yellow;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 1rem;
+    line-height: 10rem;
+}
+
 h1{/*directe verwijzing naar semantic tag*/ 
    font-family: 'Courier New', Courier, monospace;
     color:blue;/*eigenschap: waarde*/
@@ -13,6 +23,16 @@ h1{/*directe verwijzing naar semantic tag*/
 li{
     color: green;
     list-style-type:circle;
+    height: 1.5rem; 
+}
+
+.lego{
+    background-image: url(../images/lego.png);
+    background-size: 2rem;
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    background-position: left top;
+  
 }
 
 .kinderen li{
@@ -27,7 +47,7 @@ article{
     padding-bottom: 0.5rem;
     border: solid 0.1rem green;
     background-color: rgb(230, 230,230);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
 }
 
 .kinderen{
@@ -46,6 +66,7 @@ article{
 img{
     width: 2rem;
 }
+
 
 nav{
     /*background-color: yellow;*/
