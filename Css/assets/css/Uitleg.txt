@@ -1,0 +1,93 @@
+Semantic tags
+
+Er wordt rechtstreeks gestyled op HTML-elementen zoals body, h1, li, article, img, nav en a.
+
+Dit laat zien dat je CSS kan koppelen aan de betekenisvolle (semantische) tags in HTML.
+
+Classes
+
+Er zijn klassen zoals .kinderen en .games.
+
+Hiermee kan je specifieke delen van de pagina een aparte stijl geven, los van de standaard HTML-tags.
+
+Combinaties / tree-structuur (nesten)
+
+.kinderen li { … } is een voorbeeld waarbij een selector binnen een container wordt aangesproken.
+
+Dit illustreert hoe CSS de hiërarchie (de boomstructuur van HTML) volgt om regels specifieker toe te passen.
+
+Pseudoklasse
+
+a:hover { … } toont het gebruik van een pseudoklasse om een andere stijl te activeren wanneer de gebruiker met de muis over een element gaat.
+
+Commentaar in CSS
+
+Bijvoorbeeld /*...*/ bij uitleg of uitgecommentarieerde regels (zoals achtergrondkleur bij nav en a).
+
+
+Properties die gebruikt worden
+
+Tekstopmaak:
+
+font-family → lettertype kiezen.
+
+font-size → grootte van de tekst.
+
+color → tekstkleur.
+
+text-align → horizontale uitlijning.
+
+Lijsten:
+
+list-style-type → type opsommingsteken (circle, disc, etc.).
+
+Ruimte / positionering:
+
+margin-left, margin-bottom → ruimte buiten het element.
+
+padding, padding-top, padding-bottom → ruimte binnen het element.
+
+Rand en hoeken:
+
+border → soort, dikte en kleur van de rand.
+
+border-radius → afgeronde hoeken.
+
+Achtergrond:
+
+background-color → egale achtergrondkleur.
+
+background + linear-gradient → combinatie van een overlay en een afbeelding.
+
+background-position, background-size, background-repeat → controle over plaatsing, grootte en herhaling van een achtergrondafbeelding.
+
+Afbeeldingen:
+
+width → vaste breedte instellen.
+
+Weergave van elementen:
+
+display (inline-block) → manier waarop een element in de layout staat.
+
+width (bij a, nav) → breedte van blokken en navigatie.
+
+padding (bij a) → ruimte binnen het element.
+
+
+Block-level elementen (standaard)
+
+Deze nemen altijd de volledige breedte van hun container in:
+
+body, h1 (en alle headings h1–h6), li, article, nav
+
+Inline elementen (standaard)
+
+Deze nemen enkel zoveel breedte in als hun inhoud nodig heeft:
+
+a, img
+
+Aangepast in jouw CSS
+
+a { display: inline-block; } → normaal inline, maar hier veranderd naar inline-block.
+
+Daardoor kan je breedte, hoogte en padding instellen, terwijl ze toch netjes naast elkaar blijven staan.
