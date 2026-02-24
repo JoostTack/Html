@@ -1,0 +1,5 @@
+#frmGuessPlayer{
+    display: grid;
+    grid-template-columns: 8rem 12rem;/*2kolommen*/
+    gap: 0.5rem;/*ruimte tussen kolommen*/
+}
