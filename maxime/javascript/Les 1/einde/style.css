@@ -1,0 +1,35 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: system-ui, sans-serif;
+}
+
+.post {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 12px 0;
+}
+
+.btn {
+    padding: 6px 10px;
+    border: 1px solid #aaa;
+    background: #f7f7f7;
+    cursor: pointer;
+    border-radius: 6px;
+
+    &.liked {
+        color: red;
+        background-color: lightpink;
+        font-weight: 700;
+    }
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
