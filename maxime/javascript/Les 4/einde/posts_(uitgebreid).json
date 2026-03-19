@@ -1,0 +1,122 @@
+[
+  {
+    "user": "Lars",
+    "text": "Nieuwe game gekocht 🎮",
+    "likes": 2,
+    "comments": ["Nice!", "Welke game?", "Op welke console speel je?"]
+  },
+  {
+    "user": "Imane",
+    "text": "Festival vibes 🎵",
+    "likes": 7,
+    "comments": ["Zalig!", "Veel plezier!", "Wie treedt er op?", "Waar is dat festival?"]
+  },
+  {
+    "user": "Noah",
+    "text": "Net mijn JavaScript oefening afgewerkt 💻",
+    "likes": 4,
+    "comments": ["Goed bezig!"]
+  },
+  {
+    "user": "Emma",
+    "text": "Wie gaat er morgen naar de les? 😅",
+    "likes": 3,
+    "comments": ["Iedereen hoop ik", "Misschien"]
+  },
+  {
+    "user": "Youssef",
+    "text": "Net een pizza besteld 🍕",
+    "likes": 6,
+    "comments": ["Welke pizza?", "Smakelijk!"]
+  },
+  {
+    "user": "Lotte",
+    "text": "Vandaag geleerd wat event bubbling is 🤯",
+    "likes": 5,
+    "comments": ["Ik ook!", "Eindelijk snap ik het", "Die uitleg was echt goed"]
+  },
+  {
+    "user": "Arthur",
+    "text": "Nieuwe sneakers gekocht 👟",
+    "likes": 8,
+    "comments": ["Nice!"]
+  },
+  {
+    "user": "Fatima",
+    "text": "CSS kan soms echt frustrerend zijn 😅",
+    "likes": 9,
+    "comments": ["Zo herkenbaar", "Flexbox redt alles", "Grid helpt ook", "CSS is magie"]
+  },
+  {
+    "user": "Julien",
+    "text": "Weekend plannen? 🎉",
+    "likes": 3,
+    "comments": ["Uitgaan!", "Netflix", "Gamen?"]
+  },
+  {
+    "user": "Sophie",
+    "text": "Net mijn eerste website online gezet 🚀",
+    "likes": 12,
+    "comments": ["Proficiat!", "Link?", "Ziet er goed uit", "Nice design", "Goed gedaan"]
+  },
+  {
+    "user": "Nora",
+    "text": "JSON is eigenlijk best handig 👍",
+    "likes": 4,
+    "comments": ["Inderdaad"]
+  },
+  {
+    "user": "Milan",
+    "text": "Wie kent goede muziek voor studeren? 🎧",
+    "likes": 5,
+    "comments": ["Lo-fi!", "Spotify playlists"]
+  },
+  {
+    "user": "Amir",
+    "text": "Vandaag geleerd over event delegation 😎",
+    "likes": 6,
+    "comments": ["Game changer", "Super handig", "Snap ik nu ook"]
+  },
+  {
+    "user": "Hanne",
+    "text": "Mijn code werkt eindelijk 🥳",
+    "likes": 10,
+    "comments": ["Beste gevoel!", "Gefeliciteerd"]
+  },
+  {
+    "user": "Ruben",
+    "text": "Nieuwe keyboard gekocht ⌨️",
+    "likes": 4,
+    "comments": ["Mechanisch?", "Nice"]
+  },
+  {
+    "user": "Sara",
+    "text": "Studeren met koffie ☕",
+    "likes": 7,
+    "comments": ["Altijd", "Same", "Zonder koffie lukt het niet"]
+  },
+  {
+    "user": "Victor",
+    "text": "Ik begrijp nu eindelijk arrow functions 💡",
+    "likes": 8,
+    "comments": ["Nice!", "Het klikmoment"]
+  },
+  {
+    "user": "Elise",
+    "text": "Wie wil samen aan het project werken? 👩‍💻",
+    "likes": 2,
+    "comments": ["Ik!", "Ik ook", "Wanneer?"]
+  },
+  {
+    "user": "Lucas",
+    "text": "Nieuwe serie gestart 📺",
+    "likes": 3,
+    "comments": ["Welke?"]
+  },
+  {
+    "user": "Amina",
+    "text": "Debuggen kost soms meer tijd dan programmeren 😅",
+    "likes": 11,
+    "comments": ["Heel herkenbaar", "True", "Altijd zo", "Debugging life"]
+  }
+]
