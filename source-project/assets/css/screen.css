@@ -1,0 +1,266 @@
+:root {
+  --neutral-color: #E5E6E4;
+  --primary-color: hsl(1, 52%, 51%);
+  --primary-color-light: hsl(1, 52%, 85%);
+  --dark-color: #311847;
+  --accent-color: #218380;
+}
+
+@font-face {
+    font-family: 'tisaproregular';
+    src: url('../fonts/tisapro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.cheese {
+  --background-image: url("../media/cheese.svg");
+}
+
+.beef {
+  --background-image: url("../media/beef.svg");
+}
+
+.leaf {
+  --background-image: url("../media/leaf.svg");
+}
+
+.cheese:hover {
+  --background-image: url("../media/cheese-white.svg");
+}
+
+.beef:hover {
+  --background-image: url("../media/beef-white.svg");
+}
+
+.leaf:hover {
+  --background-image: url("../media/leaf-white.svg");
+}
+
+body {
+  background-color: var(--neutral-color);
+  color: var(--dark-color);
+  font-family: "tisaproregular", sans-serif;
+  font-size: 1rem;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  background-color: var(--primary-color);
+  color: var(--neutral-color);
+  padding: 0.5em;
+}
+
+header {
+  margin-bottom: 5rem;
+  padding: 0.5em 2rem;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+em {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+main {
+  width: 95%;
+  max-width: 50rem;
+  margin: 0 auto;
+  flex: 1 0 auto;
+}
+
+.introduction {
+  background-color: var(--primary-color-light);
+  padding: 1rem;
+  margin: 0 auto;
+
+  margin-bottom: 3rem;
+}
+
+p + p {
+  margin-top: 1rem;
+}
+
+#configure-form form {
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+#configure-form form > * {
+  flex: 1 1 0;
+}
+
+.label-input {
+  width: max-content;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group div {
+  display: inline-block;
+  margin: 0.2rem;
+}
+
+input[type=radio] + label {
+  margin-right: 0.75rem;
+}
+
+div.buttons {
+  width: max-content;
+  margin-left: auto;
+}
+
+button {
+  border: none;
+}
+
+.input-group button {
+  background-color: var(--primary-color-light);
+  color: var(--primary-color);
+  padding: 0.5em;
+  font-weight: bold;
+  margin: 0.2rem;
+
+  padding-left: 1.5rem;
+  background-image: var(--background-image);
+  background-repeat: no-repeat;
+  background-size: 1.5rem 1rem;
+  background-position: 0.1rem center;
+}
+
+button.action {
+  color: white;
+  padding: 0.8em;
+  background-color: var(--primary-color);
+  box-shadow: rgba(0, 0, 0, 0.24) 0 0.2rem 0.5rem;
+  display: inline-block;
+  margin: 1rem;
+}
+
+button:hover {
+  background-color: var(--dark-color);
+  color: white;
+}
+
+#confirm-form button {
+  width: 20ch;
+  margin-left: auto;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+thead th:not(:last-child) {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+
+  border-bottom: 0.1rem solid var(--primary-color);
+}
+
+tfoot td:not(:last-child) {
+  border-top: 0.1rem solid var(--primary-color);
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+td, th {
+  padding: 0.5rem;
+  text-align: left;
+  vertical-align: middle;
+}
+
+:is(td, th):nth-child(2) {
+  text-align: right;
+}
+
+:is(td,th):last-child {
+  text-align: center;
+  vertical-align: bottom;
+  padding: 0;
+  width: 0.8rem;
+}
+
+td:last-child span {
+  position: relative;
+  scale: 0.8;
+  top: -0.18rem;
+  left: -0.2rem;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--primary-color);
+  }
+}
+
+footer a {
+  color: white;
+  font-weight: bold;
+}
+
+section.hidden {
+  display: none;
+}
+
+#shopping-cart {
+  display: inline-block;
+  margin-left: auto;
+  text-align: right;
+  padding-left: 1.5rem;
+
+  background-image: url("../media/shopping-cart.svg");
+  background-repeat: no-repeat;
+  background-size: 1.2rem;
+  background-position: center left;
+
+  color: white;
+  text-decoration: none;
+}
+
+#success h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#success img {
+  display: block;
+  margin: 0 auto;
+}
